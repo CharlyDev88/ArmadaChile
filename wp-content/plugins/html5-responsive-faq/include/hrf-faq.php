@@ -45,9 +45,9 @@ function fn_hrf_faqs($attr)
                   </article>';
 
 
-//if ( $is_new_install_hrf == 'new') {
-//$endofhtml = '<article style = "display:block;text-align:right; font-size:11px">Powered by <a href="https://websitebuilderguide.com/wp-plugins/html5-responsive-faq-plugin-for-wordpress/" target="_blank">HTML5 Responsive FAQ</a></article></div><!-- HRF v 2.8.4 -->';
-//}else { $endofhtml = '</div>';}
+if ( $is_new_install_hrf == 'new') {
+$endofhtml = '';
+}else { $endofhtml = '</div>';}
      
       endwhile;
    else:
