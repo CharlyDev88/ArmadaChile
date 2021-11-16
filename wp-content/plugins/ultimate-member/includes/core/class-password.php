@@ -391,7 +391,7 @@ if ( ! class_exists( 'um\core\Password' ) ) {
 				 *
 				 * @type action
 				 * @title um_change_password_errors_hook
-				 * @description Action on change password submit form
+				 * @description Action on Cambiar Password submit form
 				 * @input_vars
 				 * [{"var":"$post","type":"array","desc":"Form submitted"}]
 				 * @change_log
@@ -414,7 +414,7 @@ if ( ! class_exists( 'um\core\Password' ) ) {
 					 *
 					 * @type action
 					 * @title um_change_password_process_hook
-					 * @description Action on change password success submit form
+					 * @description Action on Cambiar Password success submit form
 					 * @input_vars
 					 * [{"var":"$post","type":"array","desc":"Form submitted"}]
 					 * @change_log
@@ -531,7 +531,7 @@ if ( ! class_exists( 'um\core\Password' ) ) {
 			}
 
 			if ( isset( $args['user_password'] ) && empty( $args['user_password'] ) ) {
-				UM()->form()->add_error( 'user_password', __( 'You must enter a new password', 'ultimate-member' ) );
+				UM()->form()->add_error( 'user_password', __( 'Debes ingresar una nueva contraseña', 'ultimate-member' ) );
 			}
 
 			if ( isset( $args['user_password'] ) ) {
@@ -562,7 +562,7 @@ if ( ! class_exists( 'um\core\Password' ) ) {
 			}
 
 			if ( isset( $args['confirm_user_password'] ) && empty( $args['confirm_user_password'] ) ) {
-				UM()->form()->add_error( 'confirm_user_password', __( 'You must confirm your new password', 'ultimate-member' ) );
+				UM()->form()->add_error( 'confirm_user_password', __( 'Debe confirmar su nueva contraseña', 'ultimate-member' ) );
 			}
 
 			if ( isset( $args['user_password'] ) && isset( $args['confirm_user_password'] ) && $args['user_password'] !== $args['confirm_user_password'] ) {

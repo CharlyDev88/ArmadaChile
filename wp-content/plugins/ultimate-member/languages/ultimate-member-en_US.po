@@ -1035,12 +1035,12 @@ msgid ""
 msgstr ""
 
 #: includes/admin/core/class-admin-metabox.php:1722
-msgid "Automatically add a confirm password field?"
+msgid "Automatically add a Confirmar Password field?"
 msgstr ""
 
 #: includes/admin/core/class-admin-metabox.php:1722
 msgid ""
-"Turn on to add a confirm password field. If turned on the confirm password "
+"Turn on to add a Confirmar Password field. If turned on the Confirmar Password "
 "field will only show on register forms and not on login forms."
 msgstr ""
 
@@ -2331,7 +2331,7 @@ msgstr ""
 
 #: includes/admin/core/class-admin-settings.php:717
 msgid ""
-"Enable or disable a strong password rules on account page / change password "
+"Enable or disable a strong password rules on account page / Cambiar Password "
 "tab"
 msgstr ""
 
@@ -4800,19 +4800,19 @@ msgid "Update Account"
 msgstr ""
 
 #: includes/core/class-account.php:103
-msgid "Change Password"
+msgid "Cambiar Password"
 msgstr ""
 
 #: includes/core/class-account.php:104
-msgid "Update Password"
+msgid "Actualizar Password"
 msgstr ""
 
 #: includes/core/class-account.php:110
-msgid "Update Privacy"
+msgid "Actualizar Privacidad"
 msgstr ""
 
 #: includes/core/class-account.php:116
-msgid "Update Notifications"
+msgid "Actualizar Notificaciones"
 msgstr ""
 
 #: includes/core/class-account.php:124 includes/core/class-account.php:125
@@ -7218,7 +7218,7 @@ msgid ""
 msgstr ""
 
 #: includes/core/class-password.php:539
-msgid "You must enter a new password"
+msgid "Debes ingresar una nueva contraseña"
 msgstr ""
 
 #: includes/core/class-password.php:545 includes/core/um-actions-account.php:75
@@ -7237,7 +7237,7 @@ msgid ""
 msgstr ""
 
 #: includes/core/class-password.php:559
-msgid "You must confirm your new password"
+msgid "Debe confirmar su nueva contraseña"
 msgstr ""
 
 #: includes/core/class-password.php:563 includes/core/um-actions-form.php:545
@@ -7728,7 +7728,7 @@ msgid "Forgot your password?"
 msgstr ""
 
 #: includes/core/um-actions-misc.php:111
-msgid "Your account was updated successfully."
+msgid "Su cuenta se actualizó con éxito."
 msgstr ""
 
 #: includes/core/um-actions-misc.php:115

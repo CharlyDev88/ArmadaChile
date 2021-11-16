@@ -126,7 +126,7 @@ $blog_details = get_blog_details();
 	<div class="wp-activate-container">
 	<?php if ( ! $key ) { ?>
 
-		<h2><?php _e( 'Activation Key Required' ); ?></h2>
+		<h2><?php _e( 'Se requiere clave de activación' ); ?></h2>
 		<form name="activateform" id="activateform" method="post" action="<?php echo network_site_url( $blog_details->path . 'wp-activate.php' ); ?>">
 			<p>
 				<label for="key"><?php _e( 'Activation Key:' ); ?></label>
@@ -142,13 +142,13 @@ $blog_details = get_blog_details();
 		if ( is_wp_error( $result ) && in_array( $result->get_error_code(), $valid_error_codes, true ) ) {
 			$signup = $result->get_error_data();
 			?>
-			<h2><?php _e( 'Your account is now active!' ); ?></h2>
+			<h2><?php _e( 'Tu cuenta ahora está activa!' ); ?></h2>
 			<?php
 			echo '<p class="lead-in">';
 			if ( '' === $signup->domain . $signup->path ) {
 				printf(
 					/* translators: 1: Login URL, 2: Username, 3: User email address, 4: Lost password URL. */
-					__( 'Your account has been activated. You may now <a href="%1$s">log in</a> to the site using your chosen username of &#8220;%2$s&#8221;. Please check your email inbox at %3$s for your password and login instructions. If you do not receive an email, please check your junk or spam folder. If you still do not receive an email within an hour, you can <a href="%4$s">reset your password</a>.' ),
+					__( 'Tu cuenta tiene que ser activada. You may now <a href="%1$s">log in</a> to the site using your chosen username of &#8220;%2$s&#8221;. Please check your email inbox at %3$s for your password and login instructions. If you do not receive an email, please check your junk or spam folder. If you still do not receive an email within an hour, you can <a href="%4$s">reset your password</a>.' ),
 					network_site_url( $blog_details->path . 'wp-login.php', 'login' ),
 					$signup->user_login,
 					$signup->user_email,
@@ -167,7 +167,7 @@ $blog_details = get_blog_details();
 			echo '</p>';
 		} elseif ( null === $result || is_wp_error( $result ) ) {
 			?>
-			<h2><?php _e( 'An error occurred during the activation' ); ?></h2>
+			<h2><?php _e( 'A ocurrido un error durante la activación' ); ?></h2>
 			<?php if ( is_wp_error( $result ) ) : ?>
 				<p><?php echo $result->get_error_message(); ?></p>
 			<?php endif; ?>
@@ -176,7 +176,7 @@ $blog_details = get_blog_details();
 			$url  = isset( $result['blog_id'] ) ? get_home_url( (int) $result['blog_id'] ) : '';
 			$user = get_userdata( (int) $result['user_id'] );
 			?>
-			<h2><?php _e( 'Your account is now active!' ); ?></h2>
+			<h2><?php _e( 'Tu cuenta ahora está activa!' ); ?></h2>
 
 			<div id="signup-welcome">
 			<p><span class="h3"><?php _e( 'Username:' ); ?></span> <?php echo $user->user_login; ?></p>
@@ -192,7 +192,7 @@ $blog_details = get_blog_details();
 				<p class="view">
 				<?php
 					/* translators: 1: Site URL, 2: Login URL. */
-					printf( __( 'Your account is now activated. <a href="%1$s">View your site</a> or <a href="%2$s">Log in</a>' ), $url, esc_url( $login_url ) );
+					printf( __( 'Tu cuenta ahora está activada. <a href="%1$s">View your site</a> or <a href="%2$s">Log in</a>' ), $url, esc_url( $login_url ) );
 				?>
 				</p>
 			<?php else : ?>
@@ -200,7 +200,7 @@ $blog_details = get_blog_details();
 				<?php
 					printf(
 						/* translators: 1: Login URL, 2: Network home URL. */
-						__( 'Your account is now activated. <a href="%1$s">Log in</a> or go back to the <a href="%2$s">homepage</a>.' ),
+						__( 'Tu cuenta ahora está activada. <a href="%1$s">Log in</a> or go back to the <a href="%2$s">homepage</a>.' ),
 						network_site_url( $blog_details->path . 'wp-login.php', 'login' ),
 						network_home_url( $blog_details->path )
 					);

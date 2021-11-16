@@ -155,7 +155,7 @@ function display_setup_form( $error = null ) {
 		</tr>
 		<tr class="form-field form-required user-pass2-wrap hide-if-js">
 			<th scope="row">
-				<label for="pass2"><?php _e( 'Repeat Password' ); ?>
+				<label for="pass2"><?php _e( 'Repetir Password' ); ?>
 					<span class="description"><?php _e( '(required)' ); ?></span>
 				</label>
 			</th>
@@ -164,7 +164,7 @@ function display_setup_form( $error = null ) {
 			</td>
 		</tr>
 		<tr class="pw-weak">
-			<th scope="row"><?php _e( 'Confirm Password' ); ?></th>
+			<th scope="row"><?php _e( 'Confirmar Password' ); ?></th>
 			<td>
 				<label>
 					<input type="checkbox" name="pw_weak" class="pw-checkbox" />

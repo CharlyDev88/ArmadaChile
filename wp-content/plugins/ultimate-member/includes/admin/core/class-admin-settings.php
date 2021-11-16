@@ -1169,7 +1169,7 @@ if ( ! class_exists( 'um\admin\core\Admin_Settings' ) ) {
 										'id'      => 'account_require_strongpass',
 										'type'    => 'checkbox',
 										'label'   => __( 'Require a strong password?', 'ultimate-member' ),
-										'tooltip' => __( 'Enable or disable a strong password rules on account page / change password tab', 'ultimate-member' ),
+										'tooltip' => __( 'Enable or disable a strong password rules on account page / Cambiar Password tab', 'ultimate-member' ),
 									),
 									array(
 										'id'          => 'account_hide_in_directory',

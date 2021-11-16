@@ -152,7 +152,7 @@ function edit_user( $user_id = 0 ) {
 	}
 
 	/**
-	 * Fires before the password and confirm password fields are checked for congruity.
+	 * Fires before the password and Confirmar Password fields are checked for congruity.
 	 *
 	 * @since 1.5.1
 	 *

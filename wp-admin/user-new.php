@@ -582,7 +582,7 @@ if ( current_user_can( 'create_users' ) ) {
 		</td>
 	</tr>
 	<tr class="pw-weak">
-		<th><?php _e( 'Confirm Password' ); ?></th>
+		<th><?php _e( 'Confirmar Password' ); ?></th>
 		<td>
 			<label>
 				<input type="checkbox" name="pw_weak" class="pw-checkbox" />

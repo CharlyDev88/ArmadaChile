@@ -7227,7 +7227,7 @@ msgstr[1] "%s comentarios"
 
 #: wp-admin/install.php:167 wp-admin/user-edit.php:663
 #: wp-admin/user-new.php:585
-msgid "Confirm Password"
+msgid "Confirmar Password"
 msgstr "Confirmá la contraseña"
 
 #. translators: 1: wp-config.php, 2: Secret key service URL.

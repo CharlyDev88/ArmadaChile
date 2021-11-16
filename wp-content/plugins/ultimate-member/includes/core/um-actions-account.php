@@ -41,7 +41,7 @@ function um_submit_account_errors_hook( $args ) {
 
 		case 'password': {
 
-			// change password
+			// Cambiar Password
 			UM()->account()->current_tab = 'password';
 
 			if ( isset( $args['user_password'] ) ) {
@@ -201,7 +201,7 @@ function um_submit_account_details( $args ) {
 
 	$user_id = um_user( 'ID' );
 
-	//change password account's tab
+	//Cambiar Password account's tab
 	if ( 'password' === $current_tab && $args['user_password'] && $args['confirm_user_password'] ) {
 
 		$changes['user_pass'] = sanitize_text_field( $args['user_password'] );

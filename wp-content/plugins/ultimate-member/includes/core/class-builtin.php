@@ -740,7 +740,7 @@ if ( ! class_exists( 'um\core\Builtin' ) ) {
 					'max_chars' => 30,
 					'force_good_pass' => 1,
 					'force_confirm_pass' => 1,
-					'label_confirm_pass' => __('Confirm Password','ultimate-member')
+					'label_confirm_pass' => __('Confirmar Password','ultimate-member')
 				),
 
 				'first_name' => array(

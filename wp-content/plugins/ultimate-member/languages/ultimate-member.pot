@@ -322,7 +322,7 @@ msgstr ""
 #: includes/admin/core/class-admin-enqueue.php:496
 #: includes/admin/core/class-admin-metabox.php:2304
 #: includes/core/class-account.php:109
-msgid "Privacy"
+msgid "Privacidad"
 msgstr ""
 
 #: includes/admin/core/class-admin-enqueue.php:500
@@ -1043,11 +1043,11 @@ msgid "Turn on to force users to create a strong password (A combination of one 
 msgstr ""
 
 #: includes/admin/core/class-admin-metabox.php:1737
-msgid "Automatically add a confirm password field?"
+msgid "Automatically add a Confirmar Password field?"
 msgstr ""
 
 #: includes/admin/core/class-admin-metabox.php:1737
-msgid "Turn on to add a confirm password field. If turned on the confirm password field will only show on register forms and not on login forms."
+msgid "Turn on to add a Confirmar Password field. If turned on the Confirmar Password field will only show on register forms and not on login forms."
 msgstr ""
 
 #: includes/admin/core/class-admin-metabox.php:1747
@@ -1484,11 +1484,11 @@ msgid "The field label is the text that appears above the field on your front-en
 msgstr ""
 
 #: includes/admin/core/class-admin-metabox.php:2275
-msgid "Confirm password field label"
+msgid "Confirmar Password field label"
 msgstr ""
 
 #: includes/admin/core/class-admin-metabox.php:2275
-msgid "This label is the text that appears above the confirm password field. Leave blank to show default label."
+msgid "This label is the text that appears above the Confirmar Password field. Leave blank to show default label."
 msgstr ""
 
 #: includes/admin/core/class-admin-metabox.php:2285
@@ -2253,7 +2253,7 @@ msgid "Require a strong password?"
 msgstr ""
 
 #: includes/admin/core/class-admin-settings.php:1142
-msgid "Enable or disable a strong password rules on account page / change password tab"
+msgid "Enable or disable a strong password rules on account page / Cambiar Password tab"
 msgstr ""
 
 #: includes/admin/core/class-admin-settings.php:1147
@@ -4713,19 +4713,19 @@ msgid "Update Account"
 msgstr ""
 
 #: includes/core/class-account.php:103
-msgid "Change Password"
+msgid "Cambiar Password"
 msgstr ""
 
 #: includes/core/class-account.php:104
-msgid "Update Password"
+msgid "Actualizar Password"
 msgstr ""
 
 #: includes/core/class-account.php:110
-msgid "Update Privacy"
+msgid "Actuakizar Privacidad"
 msgstr ""
 
 #: includes/core/class-account.php:116
-msgid "Update Notifications"
+msgid "Actualizar Notificaciones"
 msgstr ""
 
 #: includes/core/class-account.php:124
@@ -4836,7 +4836,7 @@ msgid "Username or E-mail"
 msgstr ""
 
 #: includes/core/class-builtin.php:743
-msgid "Confirm Password"
+msgid "Confirmar Password"
 msgstr ""
 
 #: includes/core/class-builtin.php:747
@@ -7200,7 +7200,7 @@ msgid "You have reached the limit for requesting password change for this user a
 msgstr ""
 
 #: includes/core/class-password.php:534
-msgid "You must enter a new password"
+msgid "Debes ingresar una nueva contraseña"
 msgstr ""
 
 #: includes/core/class-password.php:547
@@ -7220,7 +7220,7 @@ msgid "Your password must contain at least one lowercase letter, one capital let
 msgstr ""
 
 #: includes/core/class-password.php:560
-msgid "You must confirm your new password"
+msgid "Debe confirmar su nueva contraseña"
 msgstr ""
 
 #: includes/core/class-password.php:564
@@ -7735,7 +7735,7 @@ msgid "Forgot your password?"
 msgstr ""
 
 #: includes/core/um-actions-misc.php:111
-msgid "Your account was updated successfully."
+msgid "Su cuenta se actualizó con éxito."
 msgstr ""
 
 #: includes/core/um-actions-misc.php:115

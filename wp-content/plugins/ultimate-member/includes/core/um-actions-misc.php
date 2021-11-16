@@ -108,7 +108,7 @@ function um_add_update_notice( $args ) {
 				break;
 
 			case 'account':
-				$success = __( 'Your account was updated successfully.', 'ultimate-member' );
+				$success = __( 'Su cuenta se actualizó con éxito.', 'ultimate-member' );
 				break;
 
 			case 'password_changed':

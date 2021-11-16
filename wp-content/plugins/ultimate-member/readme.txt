@@ -240,7 +240,7 @@ The plugin works with popular caching plugins by automatically excluding Ultimat
   - Added: Sanitizing handlers to the Ultimate Member > User Roles forms' fields
   - Added: Sanitizing handlers to the Restriction Content forms' fields in the posts/pages/menus additional fields
   - Added: Sanitizing handlers to the all (Login/Registration/Profile/Account) frontend forms' fields
-  - Added: Custom placeholder setting for the Confirm Password field
+  - Added: Custom placeholder setting for the Confirmar Password field
 
 * Bugfixes:
 
@@ -318,8 +318,8 @@ The plugin works with popular caching plugins by automatically excluding Ultimat
   - Fixed: The conflict with [Disable Blog](https://wordpress.org/plugins/disable-blog/) plugin regarding this [issue](https://wordpress.org/support/topic/ultimate-member-file-image-download/). `download_routing` callback has the highest priority now.
   - Fixed: Fields privacy functionality. This function `um_can_view_field()` has been rewritten (#780)
   - Fixed: Fields privacy + form validation functionality. Skip the field's validation that aren't visible on the form based on the privacy settings (#795)
-  - Fixed: PHP notice in the confirm password label [wp.org thread](https://wordpress.org/support/topic/undefined-index-label-php-notice/)
-  - Fixed: Confirm password placeholder when label is empty
+  - Fixed: PHP notice in the Confirmar Password label [wp.org thread](https://wordpress.org/support/topic/undefined-index-label-php-notice/)
+  - Fixed: Confirmar Password placeholder when label is empty
   - Fixed: Permanently deleting form's field (#786)
   - Fixed: Default value with comma for checkbox field-type (#729)
   - Fixed: Gutenberg blocks conditional settings (#793)
@@ -333,7 +333,7 @@ The plugin works with popular caching plugins by automatically excluding Ultimat
 * Enhancements:
   - Added: General and role setting to avoid indexing users' profiles
   - Added: `um_prepare_user_results_array_meta` hook and the 2nd argument for `um_prepare_user_results_array` hook for handle $user_ids based on getting members query
-  - Added: Change password email when the password has been reset
+  - Added: Cambiar Password email when the password has been reset
   - Added: jQuery v3 compatibility
   - Added: An option "Administrator" in a menu settings to make the menu visible for administrators only
 
@@ -417,7 +417,7 @@ The plugin works with popular caching plugins by automatically excluding Ultimat
   - Fixed PHP notice for the filter without field's label
   - Fixed PHP notice on Admin_Form class initialization
   - Fixed style of the textarea field
-  - Fixed Confirm Password field's placeholder
+  - Fixed Confirmar Password field's placeholder
 
 = 2.1.11: October 6, 2020 =
 
@@ -1274,7 +1274,7 @@ The plugin works with popular caching plugins by automatically excluding Ultimat
 * Bugfixes:
   * Fix file clean up with image/file fields on profile update
   * Fix text domain slug for wp.org translation compatibility
-  * Fix change password email notification
+  * Fix Cambiar Password email notification
   * Fix double click submission in registration forms
   * Fix custom field role validation
   * Fix conditional logic 'content block' field
@@ -1432,7 +1432,7 @@ The plugin works with popular caching plugins by automatically excluding Ultimat
 * Bugfixes:
   * Fix assigning of role on registration process
   * Fix change email address in edit mode.
-  * Fix change password validation.
+  * Fix Cambiar Password validation.
   * Removes notices when role field is present in the profile form.
 
 
@@ -1626,7 +1626,7 @@ The plugin works with popular caching plugins by automatically excluding Ultimat
 * Fixed: global access settings
 
 = 1.3.60: June 23, 2016 =
-* Fixed: change password
+* Fixed: Cambiar Password
 * Fixed: menu settings and roles
 * Fixed: cropper issue with Avada theme
 * Fixed: image cropper and modal
@@ -1647,7 +1647,7 @@ The plugin works with popular caching plugins by automatically excluding Ultimat
 * Fixed: access settings
 
 = 1.3.58: June 09, 2016 =
-* Fixed: change password
+* Fixed: Cambiar Password
 * Fixed: select field overlay
 
 = 1.3.57: June 09, 2016 =
@@ -1669,7 +1669,7 @@ The plugin works with popular caching plugins by automatically excluding Ultimat
 * Fixed: remove notices
 * Fixed: dropdown/select fields 
 * Fixed: upload file extension's case sensitive issue
-* Fixed: reset and change password
+* Fixed: reset and Cambiar Password
 
 = 1.3.53: June 01, 2016 =
 * New: generate dummy users tool
@@ -1884,13 +1884,13 @@ The plugin works with popular caching plugins by automatically excluding Ultimat
 * Fixed: WPML permalink and form compatibility
 * Fixed: blocked words
 * Fixed: searching with space
-* Fixed: change password
+* Fixed: Cambiar Password
 * Fixed: members grid override
 * Fixed: tipsy.js error
 * Fixed: Plugin conflict causing account page displaying wrong info
 * Fixed: email locale tempalte path
 * Fixed: invalid role
-* Fixed: validation for change password
+* Fixed: validation for Cambiar Password
 * Fixed: unchecked access roles
 * Fixed: telno input styles
 * Fixed: escape display name in title attributes

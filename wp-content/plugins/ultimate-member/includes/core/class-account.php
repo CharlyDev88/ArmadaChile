@@ -100,8 +100,8 @@ if ( ! class_exists( 'um\core\Account' ) ) {
 
 			$tabs[200]['password'] = array(
 				'icon'          => 'um-faicon-asterisk',
-				'title'         => __( 'Change Password', 'ultimate-member' ),
-				'submit_title'  => __( 'Update Password', 'ultimate-member' ),
+				'title'         => __( 'Cambiar Password', 'ultimate-member' ),
+				'submit_title'  => __( 'Actualizar Password', 'ultimate-member' ),
 			);
 
 			$tabs[300]['privacy'] = array(
