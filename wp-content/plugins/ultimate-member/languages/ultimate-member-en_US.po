@@ -7966,7 +7966,7 @@ msgstr ""
 
 #: templates/password-reset.php:56
 msgid ""
-"To reset your password, please enter your email address or username below"
+"Para restablecer su contraseña, ingrese su dirección de correo electrónico o nombre de usuario a continuación"
 msgstr ""
 
 #: templates/password-reset.php:94

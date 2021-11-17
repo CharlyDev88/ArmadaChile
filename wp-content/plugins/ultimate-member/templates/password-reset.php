@@ -55,7 +55,7 @@
 					<div class="um-field um-field-block um-field-type_block">
 						<div class="um-field-block">
 							<div style="text-align:center;">
-								<?php _e( 'To reset your password, please enter your email address or username below', 'ultimate-member' ); ?>
+								<?php _e( 'Para restablecer su contraseña, ingrese su dirección de correo electrónico o nombre de usuario a continuación', 'ultimate-member' ); ?>
 							</div>
 						</div>
 					</div>

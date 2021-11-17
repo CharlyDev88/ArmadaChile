@@ -7984,7 +7984,7 @@ msgid "Your password reset link appears to be invalid. Please request a new link
 msgstr ""
 
 #: templates/password-reset.php:58
-msgid "To reset your password, please enter your email address or username below"
+msgid "Para restablecer su contraseña, ingrese su dirección de correo electrónico o nombre de usuario a continuación"
 msgstr ""
 
 #: templates/password-reset.php:96
