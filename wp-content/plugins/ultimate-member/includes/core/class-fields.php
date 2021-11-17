@@ -4379,7 +4379,7 @@ if ( ! class_exists( 'um\core\Fields' ) ) {
 				}
 
 				if ( um_is_myprofile() ) {
-					$output .= '<p class="um-profile-note">' . $emo . '<span>' . sprintf( __( 'Your profile is looking a little empty. Why not <a href="%s">add</a> some information!', 'ultimate-member' ), esc_url( um_edit_profile_url() ) ) . '</span></p>';
+					$output .= '<p class="um-profile-note">' . $emo . '<span>' . sprintf( __( 'Tu perfil se ve un poco vacío. ¿Por qué no <a href="%s">agregas</a> información?', 'ultimate-member' ), esc_url( um_edit_profile_url() ) ) . '</span></p>';
 				} else {
 					$output .= '<p class="um-profile-note">' . $emo . '<span>' . __( 'This user has not added any information to their profile yet.', 'ultimate-member' ) . '</span></p>';
 				}

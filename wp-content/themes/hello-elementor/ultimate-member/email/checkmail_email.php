@@ -4,7 +4,7 @@
 <div style="clear: both"> </div>
 </div>
 <div style="padding: 0 30px 30px 30px;border-bottom: 3px solid #eeeeee">
-<div style="padding: 30px 0;font-size: 24px;text-align: center;line-height: 40px">Gracias por registrarte en la Armada de Chile!<span>Por favor dale click al botón "<strong>Activar cuenta</strong>" , y finaliza tu regsitración al sitio .</span></div>
+<div style="padding: 30px 0;font-size: 24px;text-align: center;line-height: 40px">Gracias por registrarte en la Armada de Chile!Por favor dale click al botón "<strong>Activar cuenta</strong>" , y finaliza tu regsitración al sitio .</div>
 <div style="padding: 10px 0 50px 0;text-align: center"><a style="background: #555555;color: #fff;padding: 12px 30px;text-decoration: none;border-radius: 3px;letter-spacing: 0.3px" href="{account_activation_link}">Activar cuenta</a></div>
 <div style="padding: 15px;background: #eee;border-radius: 3px;text-align: center">Necesitas ayuda? <a style="color: #3ba1da;text-decoration: none" href="mailto:{admin_email}">contactate</a> ahora.</div>
 </div>

@@ -7072,7 +7072,7 @@ msgstr ""
 
 #: includes/core/class-fields.php:4298
 msgid ""
-"Your profile is looking a little empty. Why not <a href=\"%s\">add</a> some "
+"Tu perfil se ve un poco vacío. ¿Por qué no <a href=\"%s\">agregas</a> información? "
 "information!"
 msgstr ""
 
