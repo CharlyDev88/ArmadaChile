@@ -12,7 +12,7 @@
 			</td>
 			<td class="t">
 				<a href="<?php echo esc_url( admin_url( 'users.php' ) ); ?>">
-					<?php _e( 'Users', 'ultimate-member' ); ?>
+					<?php _e( 'Usuarios', 'ultimate-member' ); ?>
 				</a>
 			</td>
 		</tr>
@@ -25,7 +25,7 @@
 			</td>
 			<td class="t">
 				<a href="<?php echo esc_url( admin_url( 'users.php?um_status=approved' ) ); ?>">
-					<?php _e( 'Approved', 'ultimate-member' ); ?>
+					<?php _e( 'Aprobados', 'ultimate-member' ); ?>
 				</a>
 			</td>
 		</tr>
@@ -38,7 +38,7 @@
 			</td>
 			<td class="t">
 				<a href="<?php echo esc_url( admin_url( 'users.php?um_status=rejected' ) ); ?>">
-					<?php _e( 'Rejected', 'ultimate-member' ); ?>
+					<?php _e( 'Rechazados', 'ultimate-member' ); ?>
 				</a>
 			</td>
 		</tr>
