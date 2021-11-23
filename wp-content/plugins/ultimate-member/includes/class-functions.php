@@ -275,7 +275,6 @@ if ( ! class_exists( 'UM_Functions' ) ) {
 			}
 		}
 
-
 		/**
 		 * Locate a template and return the path for inclusion.
 		 *

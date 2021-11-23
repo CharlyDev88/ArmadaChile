@@ -467,6 +467,9 @@ function um_after_login_submit( $args ) {
 add_action( 'um_after_login_fields', 'um_after_login_submit', 1001 );
 
 
+
+
+
 /**
  * Show Fields
  *
@@ -476,3 +479,6 @@ function um_add_login_fields( $args ) {
 	echo UM()->fields()->display( 'login', $args );
 }
 add_action( 'um_main_login_fields', 'um_add_login_fields', 100 );
+
+
+

@@ -159,7 +159,7 @@
 
 		$pass1Row = $( '.user-pass1-wrap, .user-pass-wrap, .reset-pass-submit' );
 
-		// Hide the Confirmar Password field when JavaScript support is enabled.
+		// Hide the confirm password field when JavaScript support is enabled.
 		$('.user-pass2-wrap').hide();
 
 		$submitButton = $( '#submit, #wp-submit' ).on( 'click', function () {

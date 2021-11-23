@@ -216,3 +216,12 @@ if ( ! function_exists( 'hello_elementor_body_open' ) ) {
 		}
 	}
 }
+
+/*add_action("wp_enqueue_scripts", "dcms_insertar_js");
+function dcms_insertar_js(){
+    
+    wp_register_script('Miscript', get_stylesheet_directory_uri(). '/js/validarRUT.js',
+	array('jquery'), false , false );
+    wp_enqueue_script('Miscript');    
+}*/
+
