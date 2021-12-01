@@ -13,7 +13,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	<?php if ( apply_filters( 'hello_elementor_page_title', true ) ) : ?>
 		<header class="page-header">
 			<h1 class="entry-title">
-				<?php esc_html_e( 'Search results for: ', 'hello-elementor' ); ?>
+				<?php esc_html_e( 'Resultados de búsqueda de: ', 'hello-elementor' ); ?>
 				<span><?php echo get_search_query(); ?></span>
 			</h1>
 		</header>
